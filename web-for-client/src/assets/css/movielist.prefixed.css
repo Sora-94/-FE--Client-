@@ -1,0 +1,106 @@
+.movielist .movieList-container {
+    background-color: #101E4B;
+    color: white;
+  }
+  
+  .movielist .movieList-header {
+    margin-bottom: 20px;
+  }
+  
+  .movielist .movieList-title {
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  .movielist .movieList-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .movielist .movieList-item {
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: start;
+    transition: transform 0.3s;
+  }
+  
+  .movielist .movieList-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .movielist .movieList-item-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .movielist .movieList-item-image {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+  }
+  
+  .movielist .movieList-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .movielist .movieList-item:hover .movieList-overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .movielist .movieList-info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .movielist .movieList-info li {
+    margin: 5px 0;
+  }
+  
+  .movielist .movieList-item-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .movielist .movieList-item-footer {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  
+  .movielist .movieList-item-actions {
+    margin-top: 10px;
+  }
+  
+  .movielist .movieList-item-trailer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .movielist .movieList-item-btn {
+    height: 40px;
+    width: 150px;
+  }
+  

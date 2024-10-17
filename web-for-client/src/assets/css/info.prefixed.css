@@ -1,0 +1,149 @@
+
+
+.info .sidebar {
+  width: 250px;
+  background: linear-gradient(45deg, #2b5876, #4e4376);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.info .sidebar .profile-section img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  align-items: left;
+}
+.info .sidebar .profile-section h5, .info .sidebar .profile-section a {
+  font-size: 18px;
+  color: #ddd;
+  margin: 0;
+}
+.info .sidebar .profile-section a {
+  font-size: 13px;
+  text-decoration: underline;
+}
+.info .sidebar .profile-section h5 {
+  padding: 20px;
+}
+
+.info .sidebar .points {
+  margin: 20px 0;
+}
+.info .sidebar .points p {
+  margin: 0;
+  font-size: 15px;
+  color: #ff8c00;
+}
+.info .sidebar .progress-bar {
+  background-color: #ff8c00;
+}
+.info .sidebar .nav-link {
+  color: #ddd;
+  padding: 10px 0;
+  font-size: 18px;
+}
+ .info .sidebar .nav-link:hover {
+  color: #ffd700;
+  font-weight: bold;
+}
+.info .sidebar .logout {
+  color: #ccc;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.info .container-fluid section {
+  padding: 80px 0;
+}
+
+.info .point-content{
+  position: relative;
+  align-items: center;
+}
+
+.info .point-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.info .point-content p{
+  padding: 20px 0;
+}
+
+.info .point-content .btn {
+  position: relative;
+  padding: 20px 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info .table-wrapper {
+  width: 100%;
+
+  border-radius: 10px;
+}
+.info .table th, .info .table td {
+  vertical-align: middle;
+}
+.info .detail-link {
+  color: #FFCC00;
+  text-decoration: none;
+  cursor: pointer;
+}
+.info .detail-link:hover {
+  text-decoration: underline;
+}
+.info .modal-header, .info .modal-body, .info .modal-footer {
+  border: none;
+}
+.info .btn-custom {
+  background-color: #FFCC00;
+  color: #141E30;
+}
+.info .btn-custom:hover {
+  background-color: #e6b800;
+}
+
+.info .modal-content {
+  background-color: #0a0f1b;
+  color: white;
+}
+
+.info header .user-profile {
+display: flex;
+align-items: center;
+}
+
+.info header .user-profile img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.info header .user-profile span {
+margin-left: 10px;
+color: #fff;
+font-size: 16px;
+}
+
+.info header .dropdown-menu {
+background-color: #1a1a1a;
+border: none;
+}
+
+.info header .dropdown-menu a {
+color: #fff;
+}
+
+.info header .dropdown-menu a:hover {
+background-color: #333;
+}
+
+.info .dropdown ul{
+  padding: 10px 0;
+}
